@@ -1,1 +1,5 @@
 This is folder for streetlight map reduce example
+Use the datagen.py file to generate a sample data file with random values by running "python datagen.py"
+The mapper.py file acts as a mapper in order to map the data with counts for values such as the type of car and direction. 
+The reducer.py is then used as a reducer to combine all the values from the mapper. 
+This is best used on a distributed system where multiple devices can be used to perform the mapping and reducing at the same time
